@@ -1,3 +1,22 @@
+.title {
+    text-align: center;
+    font-size: 45px;
+}
+
+#section1 {display: flex;}
+
+.bio-info {
+    width: 50%;
+}
+
+.bio-photo {
+     width: 50%;
+ }
+
+.bio {
+    width: 100%;
+}
+
 .team { 
     display: flex;
     flex-direction: row;
@@ -9,7 +28,7 @@
         text-align: center;
         padding: 8px;
 
-        .u-avatar { max-width: 200px; }
+        .u-avatar { max-width: 500px; }
 
         .u-link { 
             display: block; 
@@ -29,7 +48,7 @@
         .user-panel { 
             flex: 1 1;
 
-            .u-avatar { max-width: 300px; }
+            .u-avatar { max-width: 500px; }
         }
     }
 }
