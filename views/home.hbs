@@ -22,9 +22,11 @@
 
     <div class="team">
         <!-- loop through all our team members and put their info on the page -->
+
         {{#each people}}
         <div class="user-panel">
-            <img src="image/{{avatar}}" alt="user image" class="u-avatar">
+            <img src="images/{{avatar}}" alt="avatar" class="u-avatar">
+            
             <a href="{{ID}}" class="u-link">
                 See More Info
             </a>
@@ -47,6 +49,8 @@
         </div>
 
         <div class="lb-content">
+            <!-- render the database content here -->
+
 
         </div>
     </section>
